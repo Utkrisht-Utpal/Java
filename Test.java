@@ -1,19 +1,22 @@
 import java.util.Scanner;
 
-public class Test{
+public class Test {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Hello there! Enter your name: ");
-        String name = input.next();
-    
-        System.out.print("Fine! Tell me your age: ");
-        int age = input.nextInt();
+        int[] arr = new int[5];
         
-        System.out.print("Your name is: " + name);
-        System.out.print("Your age is: " + age);
+        System.out.println("Enter the elements of array of size 5: ");
+        for(int i = 0; i < 5; i++)
+        {
+            arr[i] = sc.nextInt();
+        }
 
-        input.close();
+        for(int i = 0; i < 5; i++)
+        {
+            System.out.println(arr[i]);
+        }
+        sc.close();
     }
 }
