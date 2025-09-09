@@ -43,7 +43,6 @@ public class linkedList {
   }
 
   public static void main(String[] args) {
-    Test outer = new Test();
       LinkedList list = new LinkedList();
 
       list.create(10);
