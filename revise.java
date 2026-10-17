@@ -5,10 +5,17 @@ public class revise {
     
     Scanner sc = new Scanner(System.in);
 
-    System.out.print("Enter your name: ");
-    String name = sc.nextLine();
-    
-    System.out.println(name);
+    try {
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        
+        System.out.println(name);
+    }
+    catch{
+        
+    }
+
+    sc.close();
 
     }
 }

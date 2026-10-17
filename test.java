@@ -7,7 +7,7 @@ public class test {
         void display (){
             System.out.println(name);
             System.out.println(this.brand);
-            System.out.println(this.price);
+            System.out.println(this.price);o
         }
     }
     
