@@ -12,7 +12,7 @@ public class revise {
         System.out.println(name);
     }
     catch(Exception e) {
-        System.out.print("Internal server error! \nSource Not found");
+        System.out.println("Internal server error! \nKindly enter an integer" + " and your java core error is: " + e);
     }
 
     sc.close();
