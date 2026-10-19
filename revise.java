@@ -7,12 +7,12 @@ public class revise {
 
     try {
         System.out.print("Enter your name: ");
-        String name = sc.nextLine();
+        Integer name = sc.nextInt();
         
         System.out.println(name);
     }
-    catch{
-        
+    catch(Exception e) {
+        System.out.print("Internal server error! \nSource Not found");
     }
 
     sc.close();
