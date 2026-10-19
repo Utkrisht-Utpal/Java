@@ -12,7 +12,7 @@ public class revise {
         System.out.println(name);
     }
     catch(Exception e) {
-        System.out.println("Internal server error! \nKindly enter an integer" + " and your java core error is: " + e);
+        System.out.println("Internal server error! \nKindly enter an integer" + "\nYour java core error is: " + e);
     }
 
     sc.close();
