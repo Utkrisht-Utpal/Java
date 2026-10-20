@@ -53,5 +53,4 @@ public class revise {
             System.out.println(num);
         }
     }
-
 }
