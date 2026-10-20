@@ -12,7 +12,6 @@
 02:07:00 => Ternary Operator
 02:08:35 => Switch Statement
 02:17:00 => Loops
-02:17:00 => Switch Statement
 02:50:48 => OOPS Concept
 03:11:00 => Intro to JDK, JVM and JRE
 03:46:00 => Arrays
